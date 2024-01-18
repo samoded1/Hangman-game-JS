@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: tomato;
+}
+.container {
+    width: 850px;
+    background: white;
+    display: flex;
+    align-items: flex-end;
+    gap:70px;
+    padding: 60px 40px;
+    border-radius: 10px;
+}
+.hangman-box img {
+    max-width: 270px;
+}
+.hangman-box h1 {
+    font-size: 1.45rem;
+    margin-top: 20px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.word-display .letter {
+    width: 28px;
+    border-bottom: 3px solid black;
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.word-display {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
